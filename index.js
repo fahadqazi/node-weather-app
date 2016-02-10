@@ -8,8 +8,8 @@ request({
 	if (error) {
 		console.log('Unable to fetch weather.');
 	} else {
-		// console.log(JSON.stringify(body, null, 4));
-		// It's 77.77 in Philadelphia!
+		console.log(JSON.stringify(body, null, 4));
+		
 		console.log('It\'s ' + body.main.temp + ' in ' + body.name + '!');
 		console.log("You live in " + body.name + ", " + body.sys.country);
 	}

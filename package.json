@@ -1,0 +1,22 @@
+{
+  "name": "node-weather-app",
+  "version": "1.0.0",
+  "description": "A node based weather app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fahadqazi/node-weather-app.git"
+  },
+  "author": "Fahad Qazi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fahadqazi/node-weather-app/issues"
+  },
+  "homepage": "https://github.com/fahadqazi/node-weather-app#readme",
+  "dependencies": {
+    "request": "^2.60.0"
+  }
+}
